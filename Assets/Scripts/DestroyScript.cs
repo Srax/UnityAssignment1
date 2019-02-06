@@ -11,7 +11,8 @@ public class DestroyScript : MonoBehaviour
 
     void Start()
     {
-        destroyDelay = Random.Range(minRandom, maxRandom); //Make random spawn delay between two given seconds
+        destroyDelay = Random.Range(maxRandom, minRandom); //Make random spawn delay between two given seconds
+        print(destroyDelay);
     }
       
 
